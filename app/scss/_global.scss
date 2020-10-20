@@ -55,7 +55,7 @@ body{
 .title{
     text-align: center;
     color: $bg;
-    font-weight: 700;
+    @include f700;
     font-size: 36px;
     line-height: 60px;
     margin-bottom: 30px;
@@ -63,4 +63,5 @@ body{
 
 .rate-star{
     display: inline-block;
+    margin-right: 13px;
 }
